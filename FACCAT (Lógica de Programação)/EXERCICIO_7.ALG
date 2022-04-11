@@ -1,10 +1,10 @@
 Algoritmo "exercicio_7"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson
-// Descrição   : Receber idade uma pessoa em anos, meses e dias e reproduza em dias
+// DescriÃ§Ã£o   : Receber idade da pessoa em anos, meses e dias e reproduzir em apenas dias quantitativos.
 // Autor(a)    : Lennon Manholeto
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Anos:inteiro
    Meses:inteiro
    Dias:inteiro
@@ -13,16 +13,16 @@ Var
    totalEmDias:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite seus anos de vida: ")
    leia(Anos)
-   Escreval ("Quantos meses de vida você tem ?")
+   Escreval ("Quantos meses de vida vocÃª tem ?")
    leia(Meses)
-   Escreval("Quantos dias de vida você tem ?")
+   Escreval("Quantos dias de vida vocÃª tem ?")
    leia(Dias)
    Anoemdias<- Anos * 365
    Mesesemdias<- Meses * 30
    totalemdias<- Anoemdias + Mesesemdias + totalemdias
-   Escreval("Sua idade em dias é ", totalemdias)
+   Escreval("Sua idade em dias Ã© ", totalemdias)
 
 Fimalgoritmo
